@@ -1,2 +1,2 @@
-# coding-challenges
-ruby-challenges
+# Ruby Challenges
+
