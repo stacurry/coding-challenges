@@ -7,3 +7,7 @@
 ## Object Oriented Design
 * [Orange Trees](https://github.com/stacurry/ruby-challenges/tree/master/object-oriented-design/orange-trees)
 * [Cookies and Ovens](https://github.com/stacurry/ruby-challenges/tree/master/object-oriented-design/cookies-and-ovens)
+
+## Sinatra Applications
+* [Skeleton Application with Login, Logout Functionality](https://github.com/stacurry/ruby-challenges/tree/master/sinatra-applications/skeleton-with-auth)
+* [URL Shortener](https://github.com/stacurry/ruby-challenges/tree/master/sinatra-applications/url-shortener)
