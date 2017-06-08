@@ -1,0 +1,29 @@
+<div class="container">
+  <h1>URL Shortener</h1>
+
+  <% if @errors %>
+    <p class="errors">Something Went Wrong:</p>
+    <ul class="error-list">
+    <% @errors.each do |error| %>
+      <li class="errors"><%= error %></li>
+    <% end %>
+    </ul>
+  <% end %>
+  
+  <form action="/urls" method="post">
+    <input type="text" name="long_url" placeholder="Enter a Long URL Here">
+    <input type="submit" value="Shorten It!">
+  </form> 
+
+  <h2>Shortened URLs</h2>
+
+    <% Address.all.order(:created_at).each do |address| %>
+      <div class="links-container">
+        <div class="link-type">original url:</div>
+        <div class="link"><a href="<%= address.long_url %>" target="_blank"><%= address.long_url %></a></div>
+
+        <div class="link-type">short url:</div>
+        <div class="link"><a href="/<%= address.short_url %>" target="_blank"><%= "http://localhost:9393/#{address.short_url}" %></a><span class="click-count">(<%= address.click_count %> clicks)</span></div>
+      </div>
+    <% end %>
+</div>
