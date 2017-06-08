@@ -1,0 +1,83 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #006699;
+}
+
+.container {
+  margin: 50px auto;
+  width: 1000px;
+  padding: 0px 20px 20px 20px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #006699;
+}
+
+input[type=submit] {
+  text-align: center;
+  border: 1px solid #006699;
+;
+  border-radius: 10px;
+  background: #006699;
+  color: white;
+  width: 150px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 2px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.links-container {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.click-count {
+  padding-left: 15px;
+  font-weight: bold;
+  color: #006699;
+}
+
+.link-type {
+  display: inline-block;
+  width: 15%;
+  font-weight: bold;
+}
+
+.link {
+  display: inline-block;
+  width: 83%;
+}
+
+.error-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.errors {
+  text-align: center;
+  color: #d2334f;
+}
